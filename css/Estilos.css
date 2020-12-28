@@ -1,0 +1,213 @@
+html{
+    font-size: 62.5%; /**Reset para REMS, 62.5% = 10 pixeles **/
+}
+body{
+    font-family: 'PT Serif', serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/** globales**/
+img{
+    max-width: 100%;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+h1{
+    font-size: 2.6rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+h4{
+    font-size: 2rem;
+}
+/**Utilidades **/
+
+.seccion{
+    margin-top: 2rem ;
+    margin-bottom: 2rem ;
+}
+.fw-300{
+    font-weight: 300
+}
+.centrar-text {
+    text-align: center;
+}
+.d-block{
+    display: block !important;
+}
+
+.contenido-centrado{
+    max-width: 800px ;
+}
+/**botones**/
+.boton{
+    color: #f7f7ef;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem ;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    display:inline-block ;
+    text-align: center;
+}
+.boton-azul{
+    background-color: #1254e4;
+    
+}
+.boton-verde{
+    background-color: #33dd09;
+}
+/**header**/
+.site-header{
+    background-color: #8f8d8d;
+    padding: 1rem 0 3rem ;
+}
+.site-header.inicio{
+    background-image: url(../img/fondo1.jpg);
+    background-position:center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+} 
+.barra{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    align-items: center;
+}
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+.contenido-header h1{
+    color: #f1eded;
+    padding-bottom: 3rem;
+    max-width: 30rem;
+    line-height: 1.8;
+} 
+.contenido-header h2{
+    color: #ffffff;
+    padding-bottom: 3rem;
+    line-height: 1.8;
+}
+.navegacion a{
+    color: #faf0f0;
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+.navegacion a:hover{
+    color: #f51d1d;
+}
+.navegacion a:last-of-type{
+    margin: o;
+}
+/**iconos nosotros **/
+
+.icono-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+.icono { 
+    flex-basis: calc(33.3% - 2rem);
+    text-align: center;
+    line-height: 1.5;
+    border: 1px solid #b5b5b5;
+}
+.icono img{
+    max-width: 30%;
+}
+.icono h3 {
+    text-transform: uppercase;
+     border: 1px solid #b5b5b5;
+
+}
+/**Anuncios**/
+.contenedor-anuncios{
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+}
+.anuncio{
+  
+    flex:0 0 calc(33.3% - 1rem);
+    border: 1px solid #b5b5b5;
+    background-color: #f5f5f5;
+    margin-bottom:2rem ;
+
+}
+.contenido-anuncio{
+    padding: 2rem;
+}
+
+.contenido-anuncio h3,
+.contenido-anuncio p {
+    margin: #141414;
+}
+.precio{
+    color: #1df565;
+    font-weight: 700;
+}
+
+/**Contacto index**/
+.imagen-contacto{
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size:cover ;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+.contenido-contacto{
+    flex: 1;
+    color: #f8f6f6;
+}
+.contenido-contacto p{
+    font-size: 1.8rem;
+}
+.color-todo{
+    background-color: rgb(211, 241, 232);
+}
+/* footer*/
+.site-footer{
+    background-color: #333333;
+    margin: 0;
+}
+.contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.copyringht{
+    margin: 0;
+    color: #ffffff;
+}
+/* paginas internas*/
+
+.contenido-nosotros{
+    display:grid;
+    grid-template-columns: repeat(2, 70rem);
+    -ms-grid-column-gap:2rem ;
+}
+.texto-nosotros blockquote{
+    font-weight: 100;
+    font-size: 2.5;
+    margin: 0;
+    padding: 0 0 2rem;
+
+}
+/* anuncio*/
+.resumen-vehiculo{
+    display: flex;
+    justify-content: space-between;
+}
